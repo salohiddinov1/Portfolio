@@ -9,6 +9,37 @@ body {
  background-color: #42445A;
 }
 
+#animation h1{
+ color:lightyellow;
+}
+
+#animation {
+ color:white;
+ font-family:serif;
+ margin:10px 1px;
+}
+
+@keyframes myAnimation {
+   from {
+      background-color: gold;
+      left: 0px;
+   }
+   to {
+      background-color: green;
+      left: 200px;
+      
+   }
+}
+ #animation{
+   animation-name: myAnimation;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate-reverse;
+   position: relative;
+   width: 190px;
+   height: 30px;
+}
+
 #firstIcon {
  display: block;
  height: 60%;
