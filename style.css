@@ -22,11 +22,11 @@ body {
 @keyframes myAnimation {
    from {
       background-color: gold;
-      left: 0px;
+      left:170px;
    }
    to {
       background-color: green;
-      left: 200px;
+      left:0px;
       
    }
 }
