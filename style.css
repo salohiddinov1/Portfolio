@@ -14,18 +14,17 @@ body {
 }
 
 #animation {
- color:white;
  font-family:serif;
  margin:10px 1px;
 }
 
 @keyframes myAnimation {
    from {
-      background-color: gold;
-      left:170px;
+       color: gold;
+      left:170;
    }
    to {
-      background-color: green;
+       color: green;
       left:0px;
       
    }
@@ -49,8 +48,8 @@ body {
 }
 
 #firstIcon img {
- width:300px;
- height:300px;
+ width:200px;
+ height:200px;
  border-radius:100%;
  box-shadow: 
   0 0 0 5px rgba(230, 220, 220, 0.10),
@@ -62,9 +61,9 @@ body {
 
 
 #navBar {
- display: block;
  text-align: center;
  margin:20px 3px;
+ width: auto;
 }
 
 #navBar a {
