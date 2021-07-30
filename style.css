@@ -37,6 +37,7 @@ body {
    position: relative;
    width: 190px;
    height: 30px;
+    text-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,110,0.22);
 }
 
 #firstIcon {
@@ -98,31 +99,40 @@ body {
 
 
 .aboutMe {
+ display: block;
  text-align: center;
  padding-top:20px;
- margin:39px 20px;
- color:white;
- 
- 
+ color:white; 
+ height: 250px;
+ width :159px;
+ margin-left:100px;
+ word-spacing:7px;
+ margin-bottom:60px;
 }
 
 #skill {
  
  display: block;
- background-color: midnightblue;
+ background-image: url(img/JavaScript-Wallpapers-Wallpaper-Cave.jpg);
+ background-size: cover;
+ background-position: center;
+ height:300px;
  text-align:center;
  margin-left:80px;
  margin-right:80px;
+ margin-top:20px;
  border-top-right-radius:15px;
  border-top-left-radius: 15px;
  border-bottom-left-radius: 15px;
  border-bottom-right-radius:15px;
  box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
- 
+ margin-bottom: 30px;
+ border:12px solid #00000063;
  
 }
 
 .myAbility p{
+ padding:5px 10px;
  word-spacing:5px;
  color:floralwhite;
  text-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22)
