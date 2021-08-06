@@ -10,6 +10,11 @@ body {
  max-width: auto;
 }
 
+
+
+
+
+
 #animation h1 {
  color: lightyellow;
 }
@@ -42,15 +47,23 @@ body {
  text-shadow: 0 18px 36px rgba(0, 0, 0, 0.30), 0 14px 11px rgba(0, 0, 110, 0.22);
 }
 
+
+
+
+
+
 #firstIcon {
  display: block;
- height: 60%;
+ height:60vh;
  text-align: center;
  padding: 40px 30px;
  border-radius: 100%;
+ overflow: auto;
+ 
 }
 
 #firstIcon img {
+ overflow: auto;
  width: 200px;
  height: 200px;
  border-radius: 100%;
@@ -63,35 +76,55 @@ body {
 }
 
 
-#navBar {
- text-align: center;
- margin: 20px 3px;
- max-width: 100%;
-}
 
-#navBar a {
- text-decoration: none;
- color: lemonchiffon;
+
+
+#navBar{
+ 
+ overflow: auto;
+ display: inline-block;
+ margin: 1px 3px 50px 6px;
+ padding: 5px 5px;
 }
 
 #navBar ul {
-
- list-style-type: none;
-
+ 
+ padding-left:0px;
+ display: inline-flex;
+ 
 }
 
 #navBar li {
- display: flex;
- float: left;
- padding: 4px;
+ 
+ display: block;
+ text-decoration: none;
+ padding: 17px;
+ 
 }
 
-#navBar ul li a:hover {
-
- background-color: #0ff;
- border-radius: 2px;
-
+#navBar a{
+ 
+ text-decoration: none;
+ color: #F3F3F8D6 ;
+ 
 }
+
+#navBar ul li a :hover{
+
+color: #A8ACCFAD ;
+ 
+}
+
+
+
+.active {
+ 
+ background-color: #A8ACCFAD;
+ border-radius:12px;
+ 
+}
+
+
 
 .aboutMe h2 {
  text-align: center;
@@ -102,23 +135,60 @@ body {
 
 
 
-.aboutMe {
- display: block;
- text-align: center;
- padding-top: 20px;
- color: white;
- height: 250px;
- width: 159px;
- margin-left: 100px;
- word-spacing: 7px;
- margin-bottom: 60px;
+
+
+
+
+#bg-size{
+ 
+ height: 100vh;
+ padding-top: 80px;
+ 
 }
 
-#skill {
+.aboutMe {
+ 
+ word-spacing: 5px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif#FFFFFF;
+ color: #FFFFFF ;
+ background-image: url(img/7a9ac5e62e8cec25665acf827d542be3.jpg);
+ display: block;
+ margin: 20px 80px 20px 80px;
+ padding: 30px 15px 0 15px;
+ background-size: cover;
+ background-position: center;
+ height: 300px; 
+ text-align: center;
+ border-top-right-radius: 18px;
+ border-top-left-radius: 18px;
+ border-bottom-left-radius: 18px;
+ border-bottom-right-radius: 18px;
+ border-end-end-radius: 25px;
+ border-end-start-radius: 25px;
+ border-start-start-radius: 25px;
+ border-start-end-radius: 25px;
+ box-shadow:
+ 0 18px 36px rgba(0, 0, 0, 0.30),
+ 0 14px 11px rgba(0, 0, 0, 0.22);
+ 
+}
+
+
+
+
+
+.myAbility{
+ 
+ padding-top: 100px;
+ height:100vh;
+ 
+}
+
+#box-shadow {
 
  display: block;
  margin: 20px 80px 20px 80px;
- padding: 10px 15px 0 15px;
+ padding: 30px 15px 0 15px;
  background-image: url(img/JavaScript-Wallpapers-Wallpaper-Cave.jpg);
  background-size: cover;
  background-position: center;
@@ -140,18 +210,97 @@ body {
 .myAbility p {
  
  word-spacing: 6px;
- color: #E3E3E3;
+ color: #FFFFFF ;
  height: 260px;
  border-top-left-radius: 12px;
  border-top-right-radius: 12px;
  border-bottom-left-radius: 12px;
  border-bottom-right-radius: 12px;
  margin: 10px 7px 0 7px;
- box-shadow:
-  0 0 0 6px  #0000075,
-  0 0 0 10px #000008C,
-  0 0 0 14px #00000A3,
-  0 0 0 19px #00000C2;
+font-family: 'Times New Roman', Times, serif; 
 
+ 
+}
+
+
+
+
+.contactStyle{
+ 
+display: block;
+margin: 60px 0 0 0;
+overflow: auto;
+ 
+}
+
+.contactStyle p{
+ 
+ 
+ word-spacing: 5px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif#FFFFFF;
+ color: #FFFFFF ;
+ background-image: url(img/7a9ac5e62e8cec25665acf827d542be3.jpg);
+ display: block;
+ margin: 20px 80px 20px 80px;
+ padding: 50px 18px 0 18px;
+ background-size: cover;
+ background-position: center;
+ height: 300px; 
+ text-align: center;
+ border-top-right-radius: 18px;
+ border-top-left-radius: 18px;
+ border-bottom-left-radius: 18px;
+ border-bottom-right-radius: 18px;
+ border-end-end-radius: 25px;
+ border-end-start-radius: 25px;
+ border-start-start-radius: 25px;
+ border-start-end-radius: 25px;
+ box-shadow: 
+ 0 18px 36px rgba(0, 0, 0, 0.30),
+ 0 14px 11px rgba(0, 0, 0, 0.22);
+ 
+}
+
+.contactStyle img{
+ 
+ width: 40px;
+ height: 40px;
+ 
+}
+
+.contactStyle a{
+ 
+ text-decoration: none;
+ 
+}
+
+.contactStyle ul {
+ 
+ display: inline-flex;
+ padding-bottom: 20px;
+ 
+}
+
+.contactStyle li {
+ 
+ text-decoration: none;
+ list-style-type: none;
+ padding: 15px;
+ overflow: auto;
+ 
+}
+
+
+
+#end{
+ 
+ margin: 20px 20px 20px 20px;
+ text-align: center;
+ 
+}
+
+.back  h3 h4{
+ 
+ font-family: serif;
  
 }
